@@ -104,7 +104,8 @@ p {
     display: flex;
     align-items: center;
 }
-.aboutus-content {
+.aboutus-content 
+{
     padding-right: 20rem;
     padding-bottom: 17rem;
     width: 60%;

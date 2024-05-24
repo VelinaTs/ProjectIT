@@ -38,11 +38,11 @@ header {
     text-decoration: underline;
 }
 .logo-item{
-    top: 0;
     padding: 20px;
-    height: 5em;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 50px;
     border-radius: 50%;
-    margin-right: 10px;
 }
 .about-section
 {

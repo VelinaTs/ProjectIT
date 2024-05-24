@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
             img.style.transform = "scale(1.1)";
             img.style.boxShadow = "0px 8px 16px rgba(0, 0, 0, 0.2)";
         });
-
         img.addEventListener('mouseout', function() {
             img.style.transform = "scale(1)";
             img.style.boxShadow = "0px 4px 8px rgba(0, 0, 0, 0.1)";

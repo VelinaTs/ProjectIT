@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', function() {
             img.style.boxShadow = "0px 4px 8px rgba(0, 0, 0, 0.1)";
         });
     }
-
     addHoverEffect(img1);
     addHoverEffect(img2);
     addHoverEffect(img3);
