@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin: 0;
+    background-color: #a0fffc;
+}
+header {
+    width: 100%;
+    margin: auto;
+}
+.header-section {
+    background-color: #19283f;
+    color: #a8b9c0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.header-section nav {
+    display: flex;
+    justify-content: center;
+}
+.menu {
+    list-style: none;
+    margin: 0;
+    top: 0;
+}
+.menu-item {
+    display: inline-block;
+    padding-right: 10px;
+    line-height: 27px;
+}
+.menu-item a {
+    color: inherit;
+    text-decoration: none;
+}
+.menu-item a:hover {
+    color: #00c7c0;
+    text-decoration: underline;
+}
+.logo-item
+{
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 50px;
+    border-radius: 50%;
+}
+.events{
+    
+    width: 450px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+  }
+  .events .calendar{
+    display: flex;
+    align-items: center;
+    padding: 25px 30px 10px;
+    justify-content: space-between;
+  }
+  .calendar .icons{
+    display: flex;
+  }
+  .calendar .icons span{
+    height: 38px;
+    width: 38px;
+    margin: 0 1px;
+    cursor: pointer;
+    color: #878787;
+    text-align: center;
+    line-height: 38px;
+    font-size: 1.9rem;
+    user-select: none;
+    border-radius: 50%;
+  }
+  .icons span:last-child{
+    margin-right: -10px;
+  }
+  .calendar .icons span:hover{
+    background: #f2f2f2;
+  }
+  .calendar .current-date{
+    font-size: 1.45rem;
+    font-weight: 500;
+  }
+  .calendar1{
+    padding: 20px;
+  }
+  .calendar1 ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+  }
+  .calendar1 .days{
+    margin-bottom: 20px;
+  }
+  .calendar1 li{
+    color: #333;
+    width: calc(100% / 7);
+    font-size: 1.07rem;
+  }
+  .calendar1 .weeks li{
+    font-weight: 500;
+    cursor: default;
+  }
+  .calendar1 .days li{
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+    margin-top: 30px;
+  }
+  .days li.inactive{
+    color: #aaa;
+  }
+  .days li.active{
+    color: #fff;
+  }
+  .days li::before{
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 50%;
+    height: 40px;
+    width: 40px;
+    z-index: -1;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .days li.active::before{
+    background: #9B59B6;
+  }
+  .days li:not(.active):hover::before{
+    background: #f2f2f2;
+  }
+  footer {
+    background-color: #19283f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
