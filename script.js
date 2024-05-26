@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     var img1 = document.getElementById("img1");
     var img2 = document.getElementById("img2");
+    var img1 = document.getElementById("img3");
 
     function addHoverEffect(img) {
         img.addEventListener('mouseover', function() {
@@ -16,4 +17,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
     addHoverEffect(img1);
     addHoverEffect(img2);
+    addHoverEffect(img3);
 });
